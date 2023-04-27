@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/js/splide-4.1.3/dist/css/splide.min.css">
+    
+</head>
+<body>
+    <header class="top">
+        <h1>JS Tecnology</h1>
+        <nav class="nav-top">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="http://">About me</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <img class="gif" src="https://i.pinimg.com/originals/ee/e0/c1/eee0c1dc806da44930fc6eb26b94a737.gif" alt="gif">
+
+    <article>
+        <div>
+            <h2>Fundamentos do webdesign</h2>
+            <h3>Os fundamentos do webdesign são os princípios básicos que guiam a criação de um site funcional e esteticamente agradável. Alguns desses fundamentos incluem a usabilidade, acessibilidade, hierarquia visual, tipografia, cores, layout e design responsivo. O objetivo é criar uma experiência de usuário positiva e eficiente para quem acessa o site.</h3>
+            </div>
+       
+           <!-- splide -->
+            <section class="splide carrossel">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide foto-1">
+                      <img src="/assets/img/html5-logo.png" alt="Html" />
+                      <button class="open-modal" data-modal="#modal1">Abrir modal</button>
+                    </li>
+                    <li class="splide__slide foto-2">
+                      <img src="./assets/img/css-3-logo.png" alt="CSS" />
+                      <button class="open-modal" data-modal="#modal2">Abrir modal</button>
+                    </li>
+                    <li class="splide__slide foto-3">
+                      <img src="/assets/img/JavaScript-logo.png" alt="Javascript" />
+                      <button class="open-modal" data-modal="#modal3">Abrir modal</button>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              
+              <!-- Modal 1 -->
+              <div class="modal" id="modal1">
+                <div class="modal-content">
+                  <span class="close-modal">&times;</span>
+                  <h2>HTML</h2>
+                  <p>O HTML é a linguagem de marcação padrão para a criação de páginas da web. Com o HTML, você pode estruturar o conteúdo da página e incluir elementos como textos, imagens, vídeos e links.</p>
+                </div>
+              </div>
+              
+              <!-- Modal 2 -->
+              <div class="modal" id="modal2">
+                <div class="modal-content">
+                  <span class="close-modal">&times;</span>
+                  <h2>CSS</h2>
+                  <p>O CSS é uma linguagem de folha de estilo utilizada para estilizar a aparência do conteúdo em páginas da web. Com o CSS, você pode controlar o layout, as cores, as fontes, as animações e muitos outros aspectos visuais da página.</p>
+                </div>
+              </div>
+              
+              <!-- Modal 3 -->
+              <div class="modal" id="modal3">
+                <div class="modal-content">
+                  <span class="close-modal">&times;</span>
+                  <h2>Javascript</h2>
+                  <p>O JavaScript é uma linguagem de programação que permite criar interatividade e dinamismo em páginas da web. Com o JavaScript, você pode criar animações, interações com o usuário, manipular o conteúdo da página e muito mais.</p>
+                </div>
+              </div>
+            </section>
+    </article>
+
+    
+    <footer>
+        <span>
+            projeto desenvolvido por <a href="http://">Jéssica de Oliveira</a>
+        </span>
+    </footer>
+
+
+    <script src="/assets/js/splide-4.1.3/dist/js/splide.min.js"></script>
+    <script src="/assets/js/all.js"></script>
+
+</body>
+</html>
